@@ -127,3 +127,9 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# Eagle backups and stuff
+/boards/*.b#*
+/boards/*.pro
+/boards/*.s#*
+/boards/*~renumsch.scr
