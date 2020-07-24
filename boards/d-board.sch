@@ -8484,271 +8484,6 @@ In this library the device names are the same as the pin names of the symbols, t
 </deviceset>
 </devicesets>
 </library>
-<library name="Wurth_Connectors_WR-USB" urn="urn:adsk.eagle:library:16513831">
-<description>&lt;BR&gt;Wurth Elektronik - Connectors - Input/Output connectors - WR-USB&lt;br&gt;&lt;Hr&gt;
-
-&lt;BR&gt;
-&lt;TABLE BORDER=0 CELLSPACING=0 CELLPADDING=0&gt;
-&lt;TR&gt;   
-&lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt;&lt;FONT FACE=ARIAL SIZE=3&gt;&lt;BR&gt;&lt;br&gt;
-      &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &amp;nbsp;&lt;BR&gt;
-       &lt;BR&gt;
-       &lt;BR&gt;
-       &lt;BR&gt;&lt;BR&gt;&lt;/FONT&gt;
-    &lt;/TD&gt;
-&lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt;&lt;FONT FACE=ARIAL SIZE=3&gt;&lt;br&gt;
-      -----&lt;BR&gt;
-      -----&lt;BR&gt;
-      -----&lt;BR&gt;
-      -----&lt;BR&gt;
-      -----&lt;BR&gt;&lt;BR&gt;&lt;/FONT&gt;
-    &lt;/TD&gt;
-    &lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt; &lt;FONT FACE=ARIAL SIZE=3&gt;&lt;br&gt;
-      ---------------------------&lt;BR&gt;
-&lt;B&gt;&lt;I&gt;&lt;span style='font-size:26pt;
-  color:#FF6600;'&gt;WE &lt;/span&gt;&lt;/i&gt;&lt;/b&gt;
-&lt;BR&gt;
-      ---------------------------&lt;BR&gt;&lt;b&gt;Würth Elektronik&lt;/b&gt;&lt;/FONT&gt;
-    &lt;/TD&gt;
-    &lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt;&lt;FONT FACE=ARIAL SIZE=3&gt;&lt;br&gt;
-      ---------O---&lt;BR&gt;
-      ----O--------&lt;BR&gt;
-      ---------O---&lt;BR&gt;
-      ----O--------&lt;BR&gt;
-      ---------O---&lt;BR&gt;&lt;BR&gt;&lt;/FONT&gt;
-    &lt;/TD&gt;
-   
-&lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt;&lt;FONT FACE=ARIAL SIZE=3&gt;&lt;BR&gt;
-      &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &amp;nbsp;&lt;BR&gt;
-       &lt;BR&gt;
-       &lt;BR&gt;
-       &lt;BR&gt;
-       &lt;BR&gt;&lt;BR&gt;&lt;/FONT&gt;
-    &lt;/TD&gt;
-  &lt;/TR&gt;
-
-  &lt;TR&gt;
-    &lt;TD COLSPAN=7&gt;&amp;nbsp;
-    &lt;/TD&gt;
-  &lt;/TR&gt;
-  
-&lt;/TABLE&gt;
-&lt;B&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;More than you expect&lt;BR&gt;&lt;BR&gt;&lt;BR&gt;&lt;/B&gt;
-
-&lt;HR&gt;&lt;BR&gt;
-&lt;b&gt;Würth Elektronik eiSos GmbH &amp; Co. KG&lt;/b&gt;&lt;br&gt;
-EMC &amp; Inductive Solutions&lt;br&gt;
-
-Max-Eyth-Str.1&lt;br&gt;
-D-74638 Waldenburg&lt;br&gt;
-&lt;br&gt;
-Tel: +49 (0)7942-945-0&lt;br&gt;
-Fax:+49 (0)7942-945-5000&lt;br&gt;
-&lt;br&gt;
-&lt;a href="http://www.we-online.com/web/en/electronic_components/produkte_pb/bauteilebibliotheken/eagle_4.php"&gt;www.we-online.com/eagle&lt;/a&gt;&lt;br&gt;
-&lt;a href="mailto:libraries@we-online.com"&gt;libraries@we-online.com&lt;/a&gt; &lt;BR&gt;&lt;BR&gt;
-&lt;br&gt;&lt;HR&gt;&lt;BR&gt;
-Neither Autodesk nor Würth Elektronik eiSos does warrant that this library is error-free or &lt;br&gt;
-that it meets your specific requirements.&lt;br&gt;&lt;BR&gt;
-Please contact us for more information.&lt;br&gt;
-&lt;HR&gt;
-&lt;br&gt;Eagle Version 9, Library Revision 2020a, 2020-01-20&lt;br&gt;
-&lt;HR&gt;
-Copyright: Würth Elektronik</description>
-<packages>
-<package name="629105150521" urn="urn:adsk.eagle:footprint:16513867/1" library_version="2">
-<description>&lt;B&gt;WR-COM&lt;/b&gt;&lt;BR&gt;Type B with Pegs, High Current at Pin 1 &amp; Pin 5 Micro USB 2.0 SMT Type B Horizontal 5 Contacts High Current</description>
-<wire x1="-4" y1="-3.3" x2="4" y2="-3.3" width="0.1" layer="51"/>
-<wire x1="-4" y1="-3.3" x2="-4" y2="-2.7" width="0.1" layer="51"/>
-<wire x1="-4" y1="-2.7" x2="-4" y2="3.3" width="0.1" layer="51"/>
-<wire x1="4" y1="-3.3" x2="4" y2="-2.7" width="0.1" layer="51"/>
-<wire x1="4" y1="-2.7" x2="4" y2="3.3" width="0.1" layer="51"/>
-<wire x1="-4" y1="3.3" x2="4" y2="3.3" width="0.1" layer="51"/>
-<wire x1="-4.15" y1="3.45" x2="-4.15" y2="2.35" width="0.01" layer="46"/>
-<wire x1="-3.3" y1="3.45" x2="-3.3" y2="2.35" width="0.01" layer="46"/>
-<wire x1="-4.15" y1="-0.42" x2="-4.15" y2="-1.38" width="0.01" layer="46"/>
-<wire x1="-3.6" y1="-0.42" x2="-3.6" y2="-1.38" width="0.01" layer="46"/>
-<wire x1="-4" y1="3.6" x2="-3.45" y2="3.6" width="0.01" layer="46"/>
-<wire x1="-4" y1="2.2" x2="-3.45" y2="2.2" width="0.01" layer="46"/>
-<wire x1="-4.15" y1="3.45" x2="-4" y2="3.6" width="0.01" layer="46" curve="-90"/>
-<wire x1="-3.45" y1="3.6" x2="-3.3" y2="3.45" width="0.01" layer="46" curve="-90"/>
-<wire x1="-4" y1="2.2" x2="-4.15" y2="2.35" width="0.01" layer="46" curve="-90"/>
-<wire x1="-3.3" y1="2.35" x2="-3.45" y2="2.2" width="0.01" layer="46" curve="-90"/>
-<wire x1="3.3" y1="3.45" x2="3.3" y2="2.35" width="0.01" layer="46"/>
-<wire x1="4.15" y1="3.45" x2="4.15" y2="2.35" width="0.01" layer="46"/>
-<wire x1="3.45" y1="3.6" x2="4" y2="3.6" width="0.01" layer="46"/>
-<wire x1="3.45" y1="2.2" x2="4" y2="2.2" width="0.01" layer="46"/>
-<wire x1="3.3" y1="3.45" x2="3.45" y2="3.6" width="0.01" layer="46" curve="-90"/>
-<wire x1="4" y1="3.6" x2="4.15" y2="3.45" width="0.01" layer="46" curve="-90"/>
-<wire x1="3.45" y1="2.2" x2="3.3" y2="2.35" width="0.01" layer="46" curve="-90"/>
-<wire x1="4.15" y1="2.35" x2="4" y2="2.2" width="0.01" layer="46" curve="-90"/>
-<wire x1="-4.03" y1="-0.3" x2="-3.72" y2="-0.3" width="0.01" layer="46"/>
-<wire x1="-4.03" y1="-1.5" x2="-3.72" y2="-1.5" width="0.01" layer="46"/>
-<wire x1="-4.15" y1="-0.42" x2="-4.03" y2="-0.3" width="0.01" layer="46" curve="-90"/>
-<wire x1="-3.72" y1="-0.3" x2="-3.6" y2="-0.42" width="0.01" layer="46" curve="-90"/>
-<wire x1="-4.03" y1="-1.5" x2="-4.15" y2="-1.38" width="0.01" layer="46" curve="-90"/>
-<wire x1="-3.6" y1="-1.38" x2="-3.72" y2="-1.5" width="0.01" layer="46" curve="-90"/>
-<wire x1="3.6" y1="-0.42" x2="3.6" y2="-1.38" width="0.01" layer="46"/>
-<wire x1="4.15" y1="-0.42" x2="4.15" y2="-1.38" width="0.01" layer="46"/>
-<wire x1="3.72" y1="-0.3" x2="4.03" y2="-0.3" width="0.01" layer="46"/>
-<wire x1="3.72" y1="-1.5" x2="4.03" y2="-1.5" width="0.01" layer="46"/>
-<wire x1="3.6" y1="-0.42" x2="3.72" y2="-0.3" width="0.01" layer="46" curve="-90"/>
-<wire x1="4.03" y1="-0.3" x2="4.15" y2="-0.42" width="0.01" layer="46" curve="-90"/>
-<wire x1="3.72" y1="-1.5" x2="3.6" y2="-1.38" width="0.01" layer="46" curve="-90"/>
-<wire x1="4.15" y1="-1.38" x2="4.03" y2="-1.5" width="0.01" layer="46" curve="-90"/>
-<wire x1="-4" y1="-2.7" x2="4" y2="-2.7" width="0.1" layer="51"/>
-<wire x1="-2.8" y1="3.4" x2="-1.9" y2="3.4" width="0.2" layer="21"/>
-<wire x1="1.9" y1="3.4" x2="2.8" y2="3.4" width="0.2" layer="21"/>
-<wire x1="-4.1" y1="1.4" x2="-4.1" y2="0.3" width="0.2" layer="21"/>
-<wire x1="4.1" y1="0.3" x2="4.1" y2="1.4" width="0.2" layer="21"/>
-<wire x1="-4.1" y1="-2.1" x2="-4.1" y2="-3.4" width="0.2" layer="21"/>
-<wire x1="-4.1" y1="-3.4" x2="4.1" y2="-3.4" width="0.2" layer="21"/>
-<wire x1="4.1" y1="-3.4" x2="4.1" y2="-2.1" width="0.2" layer="21"/>
-<smd name="1" x="-1.3" y="2.9" dx="0.45" dy="1.3" layer="1"/>
-<smd name="2" x="-0.65" y="2.9" dx="0.45" dy="1.3" layer="1"/>
-<smd name="3" x="0" y="2.9" dx="0.45" dy="1.3" layer="1"/>
-<smd name="4" x="0.65" y="2.9" dx="0.45" dy="1.3" layer="1"/>
-<smd name="5" x="1.3" y="2.9" dx="0.45" dy="1.3" layer="1"/>
-<pad name="S1" x="-3.725" y="2.9" drill="0.85" diameter="1.2" shape="long" rot="R90"/>
-<pad name="S2" x="3.725" y="2.9" drill="0.85" diameter="1.2" shape="long" rot="R90"/>
-<pad name="S4" x="-3.875" y="-0.9" drill="0.55" diameter="0.9" shape="long" rot="R90"/>
-<pad name="S3" x="3.875" y="-0.9" drill="0.55" diameter="0.9" shape="long" rot="R90"/>
-<text x="5.3484" y="3.4556" size="1.016" layer="25" ratio="13" rot="SR0">&gt;NAME</text>
-<text x="5.3484" y="1.9" size="1.016" layer="27" ratio="13" rot="SR0">&gt;VALUE</text>
-<text x="-1.2" y="-2.53" size="0.4064" layer="48">PCB Edge</text>
-<text x="-4.1" y="-4.03" size="0.3048" layer="48">Recommonded PCB Layout Tinckness:1.2mm</text>
-<hole x="-2.5" y="1.85" drill="0.8"/>
-<hole x="2.5" y="1.85" drill="0.8"/>
-<circle x="-2" y="2.85" radius="0.1" width="0.2" layer="21"/>
-<polygon width="0.1" layer="39">
-<vertex x="-4.5" y="4.2"/>
-<vertex x="-2.9" y="4.2"/>
-<vertex x="-2.9" y="3.6"/>
-<vertex x="-1.8" y="3.6"/>
-<vertex x="-1.8" y="3.75"/>
-<vertex x="1.7" y="3.75"/>
-<vertex x="1.7" y="3.6"/>
-<vertex x="2.9" y="3.6"/>
-<vertex x="2.9" y="4.3"/>
-<vertex x="4.55" y="4.3"/>
-<vertex x="4.55" y="1.6"/>
-<vertex x="4.3" y="1.6"/>
-<vertex x="4.3" y="0.1"/>
-<vertex x="4.55" y="0.1"/>
-<vertex x="4.55" y="-1.9"/>
-<vertex x="4.3" y="-1.9"/>
-<vertex x="4.3" y="-3.6"/>
-<vertex x="-4.3" y="-3.6"/>
-<vertex x="-4.3" y="-1.9"/>
-<vertex x="-4.5" y="-1.9"/>
-<vertex x="-4.5" y="-0.1"/>
-<vertex x="-4.3" y="-0.1"/>
-<vertex x="-4.3" y="1.6"/>
-<vertex x="-4.5" y="1.6"/>
-</polygon>
-</package>
-</packages>
-<packages3d>
-<package3d name="629105150521" urn="urn:adsk.eagle:package:16513895/2" type="model" library_version="2">
-<description>&lt;B&gt;WR-COM&lt;/b&gt;&lt;BR&gt;Type B with Pegs, High Current at Pin 1 &amp; Pin 5 Micro USB 2.0 SMT Type B Horizontal 5 Contacts High Current</description>
-<packageinstances>
-<packageinstance name="629105150521"/>
-</packageinstances>
-</package3d>
-</packages3d>
-<symbols>
-<symbol name="MINIUSB2.0_TYPEB" urn="urn:adsk.eagle:symbol:16513861/1" library_version="2">
-<description>Mini USB 2.0 Type B</description>
-<pin name="GND" x="-10.16" y="-5.08" length="middle" direction="pas"/>
-<pin name="ID" x="-10.16" y="-2.54" length="middle" direction="pas"/>
-<pin name="D+" x="-10.16" y="0" length="middle" direction="pas"/>
-<pin name="D-" x="-10.16" y="2.54" length="middle" direction="pas"/>
-<pin name="VBUS" x="-10.16" y="5.08" length="middle" direction="pas"/>
-<pin name="SHIELD" x="-10.16" y="-7.62" visible="pad" length="middle" direction="pas"/>
-<wire x1="-5.08" y1="-6.985" x2="-5.08" y2="6.985" width="0.254" layer="94"/>
-<wire x1="-5.08" y1="6.985" x2="4.445" y2="6.985" width="0.254" layer="94"/>
-<wire x1="4.445" y1="-6.985" x2="-5.08" y2="-6.985" width="0.254" layer="94"/>
-<wire x1="5.08" y1="7.62" x2="5.08" y2="-7.62" width="0.254" layer="94" style="shortdash"/>
-<wire x1="5.08" y1="-7.62" x2="-5.08" y2="-7.62" width="0.254" layer="94" style="shortdash"/>
-<wire x1="-5.08" y1="7.62" x2="5.08" y2="7.62" width="0.254" layer="94" style="shortdash"/>
-<wire x1="4.445" y1="6.985" x2="4.445" y2="-6.985" width="0.254" layer="94"/>
-<text x="-0.12" y="8.43" size="1.778" layer="95" align="bottom-center">&gt;NAME</text>
-<text x="-5.05" y="-10.21" size="1.778" layer="96">&gt;VALUE</text>
-<text x="6.51" y="-0.83" size="1.016" layer="94" rot="R90">shield</text>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="629105150521" urn="urn:adsk.eagle:component:16513942/2" prefix="J" uservalue="yes" library_version="2">
-<description>&lt;B&gt;Type B with Pegs, High Current at Pin 1 &amp; Pin 5 Micro USB 2.0 SMT Type B Horizontal 5 Contacts High Current 
-&lt;/B&gt;&lt;BR&gt;&lt;BR&gt;
-&lt;b&gt;Kind Properties&lt;/b&gt;
-&lt;BR&gt;Durability:10 000 Mating cycles
-&lt;BR&gt;Quality Class:10 000 Mating cycles
-&lt;BR&gt;Connector Type:Micro USB
-&lt;BR&gt;Gender:Receptacle
-&lt;BR&gt;Type:Horizontal
-&lt;BR&gt;&lt;BR&gt;
-&lt;b&gt;General Information&lt;/b&gt;
-&lt;BR&gt;Operating Temperature:-40up to +105 °C
-&lt;BR&gt;Compliance:RoHS
-&lt;BR&gt;&lt;BR&gt;
-&lt;b&gt;Electrical Properties&lt;/b&gt;
-&lt;BR&gt;IR 1:3A
-&lt;BR&gt;Working Voltage:30V (AC)
-&lt;BR&gt;Withstanding Voltage:100V (AC)
-&lt;BR&gt;Contact Resistance:30 mΩ&lt;BR&gt;&lt;BR&gt;
-&lt;b&gt;Material Properties
-&lt;/b&gt;&lt;BR&gt;Insulator Material:LCP
-&lt;BR&gt;Insulator Flammability Rating:UL94 V-0
-&lt;BR&gt;Color:Black
-&lt;BR&gt;Contact Material:Copper Alloy
-&lt;BR&gt;Contact Plating: Gold
-&lt;BR&gt;Contact Type:Stamped
-&lt;BR&gt;Shielding Material:Stainless Steel
-&lt;BR&gt;Shielding Plating:Nickel
-&lt;BR&gt;
-&lt;br&gt;&lt;a href="https://www.we-online.com/catalog/media/o86333v209%20WR-COM_629105150521_family.jpg" title="Enlarge picture"&gt;
-&lt;img src="https://www.we-online.com/catalog/media/o86333v209%20WR-COM_629105150521_family.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
-Details see: &lt;a href="https://www.we-online.com/catalog/en/COM_MICRO_SMT_TYPE_B_HORIZONTAL_HIGH_CURRENT/"&gt;https://www.we-online.com/catalog/en/COM_MICRO_SMT_TYPE_B_HORIZONTAL_HIGH_CURRENT/&lt;/a&gt;&lt;p&gt;
-
-Updated by Yingchun, Shan 2020-01-16&lt;br&gt;
-2020 (C) Würth Elektronik</description>
-<gates>
-<gate name="G$1" symbol="MINIUSB2.0_TYPEB" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="629105150521">
-<connects>
-<connect gate="G$1" pin="D+" pad="3"/>
-<connect gate="G$1" pin="D-" pad="2"/>
-<connect gate="G$1" pin="GND" pad="5"/>
-<connect gate="G$1" pin="ID" pad="4"/>
-<connect gate="G$1" pin="SHIELD" pad="S1 S2 S3 S4"/>
-<connect gate="G$1" pin="VBUS" pad="1"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:16513895/2"/>
-</package3dinstances>
-<technologies>
-<technology name="">
-<attribute name="APPLICATION" value="Micro USB 2.0" constant="no"/>
-<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/629105150521.pdf" constant="no"/>
-<attribute name="GERDER" value="Receptacle" constant="no"/>
-<attribute name="INTERFACE-TYPE" value="Type B" constant="no"/>
-<attribute name="IR1" value="3.0A" constant="no"/>
-<attribute name="MOUNT" value="SMT" constant="no"/>
-<attribute name="PACKAGING" value="Tape and Reel " constant="no"/>
-<attribute name="PART-NUMBER" value="629105150521" constant="no"/>
-<attribute name="PINS" value=" 5 " constant="no"/>
-<attribute name="TYPE" value="Horizontal" constant="no"/>
-<attribute name="WORKING-VOLTAGE" value="30V(AC)" constant="no"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 <library name="pinhead" urn="urn:adsk.eagle:library:325">
 <description>&lt;b&gt;Pin Header Connectors&lt;/b&gt;&lt;p&gt;
 &lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
@@ -9203,6 +8938,282 @@ Updated by Yingchun, Shan 2020-01-16&lt;br&gt;
 </deviceset>
 </devicesets>
 </library>
+<library name="10103594-0001LF">
+<packages>
+<package name="FCI_10103594-0001LF">
+<text x="-3.801209375" y="5.11573125" size="1.27" layer="25">&gt;NAME</text>
+<text x="-3.77566875" y="-5.09278125" size="1.27" layer="27">&gt;VALUE</text>
+<polygon width="0.0001" layer="1">
+<vertex x="-1.9" y="3.555"/>
+<vertex x="-1.9" y="3.76"/>
+<vertex x="-3.9" y="3.76"/>
+<vertex x="-3.9" y="2.3"/>
+<vertex x="-1.9" y="2.3"/>
+<vertex x="-1.9" y="2.505"/>
+<vertex x="-2.9" y="2.505"/>
+<vertex x="-2.9" y="3.555"/>
+</polygon>
+<wire x1="-2.1" y1="2.83" x2="-2.75" y2="2.83" width="0" layer="46" curve="-180"/>
+<wire x1="-2.75" y1="2.83" x2="-2.75" y2="3.23" width="0" layer="46"/>
+<wire x1="-2.75" y1="3.23" x2="-2.1" y2="3.23" width="0" layer="46" curve="-180"/>
+<wire x1="-2.1" y1="3.23" x2="-2.1" y2="2.83" width="0" layer="46"/>
+<polygon width="0.0001" layer="1">
+<vertex x="1.9" y="3.555"/>
+<vertex x="1.9" y="3.76"/>
+<vertex x="3.9" y="3.76"/>
+<vertex x="3.9" y="2.3"/>
+<vertex x="1.9" y="2.3"/>
+<vertex x="1.9" y="2.505"/>
+<vertex x="2.9" y="2.505"/>
+<vertex x="2.9" y="3.555"/>
+</polygon>
+<wire x1="2.1" y1="2.83" x2="2.75" y2="2.83" width="0" layer="46" curve="180"/>
+<wire x1="2.75" y1="2.83" x2="2.75" y2="3.23" width="0" layer="46"/>
+<wire x1="2.75" y1="3.23" x2="2.1" y2="3.23" width="0" layer="46" curve="180"/>
+<wire x1="2.1" y1="3.23" x2="2.1" y2="2.83" width="0" layer="46"/>
+<wire x1="-2.375" y1="0.25" x2="-3.075" y2="0.25" width="0" layer="46" curve="180"/>
+<wire x1="-3.075" y1="0.25" x2="-3.075" y2="-0.25" width="0" layer="46"/>
+<wire x1="-3.075" y1="-0.25" x2="-2.375" y2="-0.25" width="0" layer="46" curve="180"/>
+<wire x1="-2.375" y1="-0.25" x2="-2.375" y2="0.25" width="0" layer="46"/>
+<polygon width="0.0001" layer="1">
+<vertex x="-3.9" y="2.05"/>
+<vertex x="-3.9" y="1.35"/>
+<vertex x="-3.375" y="1.35"/>
+<vertex x="-3.375" y="0.6"/>
+<vertex x="-2.075" y="0.6"/>
+<vertex x="-2.075" y="2.05"/>
+</polygon>
+<polygon width="0.0001" layer="1">
+<vertex x="-3.375" y="-0.7"/>
+<vertex x="-3.375" y="-0.6"/>
+<vertex x="-2.075" y="-0.6"/>
+<vertex x="-2.075" y="-0.7" curve="-90"/>
+<vertex x="-2.45" y="-1.2"/>
+<vertex x="-2.95" y="-1.2" curve="-90"/>
+</polygon>
+<wire x1="2.375" y1="0.25" x2="3.075" y2="0.25" width="0" layer="46" curve="-180"/>
+<wire x1="3.075" y1="0.25" x2="3.075" y2="-0.25" width="0" layer="46"/>
+<wire x1="3.075" y1="-0.25" x2="2.375" y2="-0.25" width="0" layer="46" curve="-180"/>
+<wire x1="2.375" y1="-0.25" x2="2.375" y2="0.25" width="0" layer="46"/>
+<polygon width="0.0001" layer="1">
+<vertex x="3.9" y="2.05"/>
+<vertex x="3.9" y="1.35"/>
+<vertex x="3.375" y="1.35"/>
+<vertex x="3.375" y="0.6"/>
+<vertex x="2.075" y="0.6"/>
+<vertex x="2.075" y="2.05"/>
+</polygon>
+<polygon width="0.0001" layer="1">
+<vertex x="3.375" y="-0.7"/>
+<vertex x="3.375" y="-0.6"/>
+<vertex x="2.075" y="-0.6"/>
+<vertex x="2.075" y="-0.7" curve="90"/>
+<vertex x="2.45" y="-1.2"/>
+<vertex x="2.95" y="-1.2" curve="90"/>
+</polygon>
+<text x="4.3" y="-1.57" size="0.4064" layer="51">PCB END</text>
+<polygon width="0.0001" layer="29">
+<vertex x="-4" y="2.15"/>
+<vertex x="-1.95" y="2.15"/>
+<vertex x="-1.95" y="-0.7" curve="-90"/>
+<vertex x="-2.45" y="-1.3"/>
+<vertex x="-2.95" y="-1.3" curve="-90"/>
+<vertex x="-3.475" y="-0.7"/>
+<vertex x="-3.475" y="1.25"/>
+<vertex x="-4" y="1.25"/>
+</polygon>
+<rectangle x1="-4" y1="2.2" x2="-1.8" y2="3.86" layer="29"/>
+<rectangle x1="1.8" y1="2.2" x2="4" y2="3.86" layer="29"/>
+<polygon width="0.0001" layer="29">
+<vertex x="4" y="2.15"/>
+<vertex x="1.95" y="2.15"/>
+<vertex x="1.95" y="-0.7" curve="90"/>
+<vertex x="2.45" y="-1.3"/>
+<vertex x="2.95" y="-1.3" curve="90"/>
+<vertex x="3.475" y="-0.7"/>
+<vertex x="3.475" y="1.25"/>
+<vertex x="4" y="1.25"/>
+</polygon>
+<wire x1="-3.75" y1="3.11" x2="3.75" y2="3.11" width="0.127" layer="51"/>
+<wire x1="-3.75" y1="3.11" x2="-3.75" y2="-1.7" width="0.127" layer="51"/>
+<wire x1="-3.75" y1="-1.7" x2="-3.75" y2="-2.2" width="0.127" layer="51"/>
+<wire x1="3.75" y1="3.11" x2="3.75" y2="-2.2" width="0.127" layer="51"/>
+<wire x1="3.75" y1="1" x2="3.75" y2="-1.7" width="0.127" layer="21"/>
+<wire x1="-3.75" y1="1" x2="-3.75" y2="-1.7" width="0.127" layer="21"/>
+<wire x1="-4.15" y1="4.01" x2="4.15" y2="4.01" width="0.05" layer="39"/>
+<wire x1="4.15" y1="4.01" x2="4.15" y2="-2.2" width="0.05" layer="39"/>
+<wire x1="-4.15" y1="-2.2" x2="-4.15" y2="4.01" width="0.05" layer="39"/>
+<circle x="-1.35" y="4.5" radius="0.1" width="0.2" layer="51"/>
+<circle x="-1.35" y="4.5" radius="0.1" width="0.2" layer="21"/>
+<wire x1="-4.02" y1="-2.82" x2="-3.75" y2="-2.2" width="0.127" layer="51"/>
+<wire x1="4.02" y1="-2.82" x2="3.75" y2="-2.2" width="0.127" layer="51"/>
+<wire x1="-4.02" y1="-2.82" x2="4.02" y2="-2.82" width="0.127" layer="51"/>
+<wire x1="-3.75" y1="-1.7" x2="5" y2="-1.7" width="0.127" layer="51"/>
+<wire x1="-3.75" y1="-1.7" x2="-1.9" y2="-1.7" width="0.127" layer="21"/>
+<wire x1="3.75" y1="-1.7" x2="1.9" y2="-1.7" width="0.127" layer="21"/>
+<wire x1="-4.57" y1="-3.07" x2="4.52" y2="-3.07" width="0.05" layer="39"/>
+<wire x1="-4.57" y1="-3.07" x2="-4.15" y2="-2.2" width="0.05" layer="39"/>
+<wire x1="4.52" y1="-3.07" x2="4.15" y2="-2.2" width="0.05" layer="39"/>
+<polygon width="0.0001" layer="31">
+<vertex x="-3.9" y="3.76"/>
+<vertex x="-1.9" y="3.76"/>
+<vertex x="-1.9" y="3.04"/>
+<vertex x="-2.1" y="3.04"/>
+<vertex x="-2.1" y="3.23" curve="90"/>
+<vertex x="-2.425" y="3.555" curve="90"/>
+<vertex x="-2.75" y="3.23"/>
+<vertex x="-2.75" y="3.04"/>
+<vertex x="-3.9" y="3.04"/>
+</polygon>
+<polygon width="0.0001" layer="31">
+<vertex x="-3.9" y="2.3"/>
+<vertex x="-1.9" y="2.3"/>
+<vertex x="-1.9" y="3.04"/>
+<vertex x="-2.1" y="3.04"/>
+<vertex x="-2.1" y="2.83" curve="-90"/>
+<vertex x="-2.425" y="2.505" curve="-90"/>
+<vertex x="-2.75" y="2.83"/>
+<vertex x="-2.75" y="3.04"/>
+<vertex x="-3.9" y="3.04"/>
+</polygon>
+<polygon width="0.0001" layer="31">
+<vertex x="3.9" y="2.3"/>
+<vertex x="1.9" y="2.3"/>
+<vertex x="1.9" y="3.02"/>
+<vertex x="2.1" y="3.02"/>
+<vertex x="2.1" y="2.83" curve="90"/>
+<vertex x="2.425" y="2.505" curve="90"/>
+<vertex x="2.75" y="2.83"/>
+<vertex x="2.75" y="3.02"/>
+<vertex x="3.9" y="3.02"/>
+</polygon>
+<polygon width="0.0001" layer="31">
+<vertex x="3.9" y="3.76"/>
+<vertex x="1.9" y="3.76"/>
+<vertex x="1.9" y="3.02"/>
+<vertex x="2.1" y="3.02"/>
+<vertex x="2.1" y="3.23" curve="-90"/>
+<vertex x="2.425" y="3.555" curve="-90"/>
+<vertex x="2.75" y="3.23"/>
+<vertex x="2.75" y="3.02"/>
+<vertex x="3.9" y="3.02"/>
+</polygon>
+<polygon width="0.0001" layer="31">
+<vertex x="-3.9" y="2.05"/>
+<vertex x="-2.075" y="2.05"/>
+<vertex x="-2.075" y="0"/>
+<vertex x="-2.375" y="0"/>
+<vertex x="-2.375" y="0.25" curve="90"/>
+<vertex x="-2.725" y="0.6" curve="90"/>
+<vertex x="-3.075" y="0.25"/>
+<vertex x="-3.075" y="0"/>
+<vertex x="-3.375" y="0"/>
+<vertex x="-3.375" y="1.35"/>
+<vertex x="-3.9" y="1.35"/>
+</polygon>
+<polygon width="0.0001" layer="31">
+<vertex x="-3.375" y="0"/>
+<vertex x="-3.075" y="0"/>
+<vertex x="-3.075" y="-0.25" curve="90"/>
+<vertex x="-2.725" y="-0.6" curve="90"/>
+<vertex x="-2.375" y="-0.25"/>
+<vertex x="-2.375" y="0"/>
+<vertex x="-2.075" y="0"/>
+<vertex x="-2.075" y="-0.76" curve="-90"/>
+<vertex x="-2.515" y="-1.2"/>
+<vertex x="-2.52" y="-1.2"/>
+<vertex x="-2.91" y="-1.2"/>
+<vertex x="-2.915" y="-1.2" curve="-90"/>
+<vertex x="-3.375" y="-0.74"/>
+</polygon>
+<polygon width="0.0001" layer="31">
+<vertex x="3.9" y="2.05"/>
+<vertex x="2.075" y="2.05"/>
+<vertex x="2.075" y="0"/>
+<vertex x="2.375" y="0"/>
+<vertex x="2.375" y="0.25" curve="-90"/>
+<vertex x="2.725" y="0.6" curve="-90"/>
+<vertex x="3.075" y="0.25"/>
+<vertex x="3.075" y="0"/>
+<vertex x="3.375" y="0"/>
+<vertex x="3.375" y="1.35"/>
+<vertex x="3.9" y="1.35"/>
+</polygon>
+<polygon width="0.0001" layer="31">
+<vertex x="2.075" y="0"/>
+<vertex x="2.375" y="0"/>
+<vertex x="2.375" y="-0.255" curve="90"/>
+<vertex x="2.725" y="-0.605" curve="90"/>
+<vertex x="3.075" y="-0.255"/>
+<vertex x="3.075" y="0"/>
+<vertex x="3.375" y="0"/>
+<vertex x="3.375" y="-0.765" curve="-90"/>
+<vertex x="2.935" y="-1.2"/>
+<vertex x="2.45" y="-1.2" curve="-90"/>
+<vertex x="2.075" y="-0.745"/>
+</polygon>
+<smd name="1" x="-1.3" y="2.825" dx="1.75" dy="0.4" layer="1" rot="R90"/>
+<smd name="2" x="-0.65" y="2.825" dx="1.75" dy="0.4" layer="1" rot="R90"/>
+<smd name="3" x="0" y="2.825" dx="1.75" dy="0.4" layer="1" rot="R90"/>
+<smd name="4" x="0.65" y="2.825" dx="1.75" dy="0.4" layer="1" rot="R90"/>
+<smd name="5" x="1.3" y="2.825" dx="1.75" dy="0.4" layer="1" rot="R90"/>
+<smd name="S1" x="-0.9625" y="-0.25" dx="1.425" dy="2.5" layer="1" rot="R180"/>
+<smd name="S2" x="0.9625" y="-0.25" dx="1.425" dy="2.5" layer="1"/>
+<pad name="S3" x="-2.425" y="3.03" drill="0.65" diameter="1.05" shape="square" stop="no"/>
+<pad name="S4" x="2.425" y="3.03" drill="0.65" diameter="1.05" shape="square" rot="R180" stop="no"/>
+<pad name="S5" x="-2.725" y="0" drill="0.7" diameter="1.3" shape="square" rot="R90" stop="no"/>
+<pad name="S6" x="2.725" y="0" drill="0.7" diameter="1.3" shape="square" rot="R90" stop="no"/>
+</package>
+</packages>
+<symbols>
+<symbol name="10103594-0001LF">
+<wire x1="5.08" y1="10.16" x2="5.08" y2="-10.16" width="0.254" layer="94"/>
+<wire x1="5.08" y1="-10.16" x2="-5.08" y2="-10.16" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="-10.16" x2="-5.08" y2="10.16" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="10.16" x2="5.08" y2="10.16" width="0.254" layer="94"/>
+<text x="-5.09071875" y="10.6859" size="1.7805" layer="95">&gt;NAME</text>
+<text x="-5.086740625" y="-12.7157" size="1.77956875" layer="96">&gt;VALUE</text>
+<pin name="1" x="-10.16" y="7.62" length="middle" direction="pas"/>
+<pin name="2" x="-10.16" y="5.08" length="middle" direction="pas"/>
+<pin name="3" x="-10.16" y="2.54" length="middle" direction="pas"/>
+<pin name="4" x="-10.16" y="0" length="middle" direction="pas"/>
+<pin name="5" x="-10.16" y="-2.54" length="middle" direction="pas"/>
+<pin name="SHIELD" x="-10.16" y="-7.62" length="middle" direction="pas"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="10103594-0001LF" prefix="J">
+<description>Micro Usb, 2.0 Type b, Receptacle, Smt </description>
+<gates>
+<gate name="G$1" symbol="10103594-0001LF" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="FCI_10103594-0001LF">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="5" pad="5"/>
+<connect gate="G$1" pin="SHIELD" pad="S1 S2 S3 S4 S5 S6"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="ARROW_ELECTRONICS-PURCHASE-URL" value="https://snapeda.com/shop?store=Arrow+Electronics&amp;id=1078241"/>
+<attribute name="DESCRIPTION" value=" USB - micro B USB 2.0 Receptacle Connector 5 Position Surface Mount, Right Angle; Through Hole "/>
+<attribute name="DIGI-KEY_PART_NUMBER" value="609-4050-1-ND"/>
+<attribute name="DIGIKEY-PURCHASE-URL" value="https://snapeda.com/shop?store=DigiKey&amp;id=1078241"/>
+<attribute name="MF" value="Amphenol ICC"/>
+<attribute name="MOUSER-PURCHASE-URL" value="https://snapeda.com/shop?store=Mouser&amp;id=1078241"/>
+<attribute name="MP" value="10103594-0001LF"/>
+<attribute name="PACKAGE" value="None"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -9221,7 +9232,6 @@ Updated by Yingchun, Shan 2020-01-16&lt;br&gt;
 <part name="U1" library="esp32" deviceset="ESP-WROOM-32" device=""/>
 <part name="U2" library="CP2104" deviceset="CP2104" device="-F03-GM" value="CP2104"/>
 <part name="GND1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="J1" library="Wurth_Connectors_WR-USB" library_urn="urn:adsk.eagle:library:16513831" deviceset="629105150521" device="" package3d_urn="urn:adsk.eagle:package:16513895/2" value="AMP FCI 10103594-0001LF"/>
 <part name="GND3" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="R1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="4.7k"/>
 <part name="C1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="1uF"/>
@@ -9259,6 +9269,7 @@ Updated by Yingchun, Shan 2020-01-16&lt;br&gt;
 <part name="JP1" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X3" device="" package3d_urn="urn:adsk.eagle:package:22458/2"/>
 <part name="UART" library="Connector" library_urn="urn:adsk.eagle:library:16378166" deviceset="PINHD-1X4" device="" package3d_urn="urn:adsk.eagle:package:22407/2"/>
 <part name="GND6" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="J1" library="10103594-0001LF" deviceset="10103594-0001LF" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -9275,9 +9286,6 @@ Updated by Yingchun, Shan 2020-01-16&lt;br&gt;
 </instance>
 <instance part="GND1" gate="1" x="50.8" y="7.62" smashed="yes">
 <attribute name="VALUE" x="48.26" y="5.08" size="1.778" layer="96"/>
-</instance>
-<instance part="J1" gate="G$1" x="43.18" y="-33.02" smashed="yes" rot="R270" grouprefs="USB_PORT">
-<attribute name="NAME" x="50.8" y="-30.48" size="1.778" layer="95" font="vector" rot="R270"/>
 </instance>
 <instance part="GND3" gate="1" x="147.32" y="33.02" smashed="yes">
 <attribute name="VALUE" x="144.78" y="30.48" size="1.778" layer="96"/>
@@ -9389,6 +9397,10 @@ Updated by Yingchun, Shan 2020-01-16&lt;br&gt;
 <instance part="GND6" gate="1" x="81.28" y="17.78" smashed="yes">
 <attribute name="VALUE" x="78.74" y="15.24" size="1.778" layer="96"/>
 </instance>
+<instance part="J1" gate="G$1" x="40.64" y="-33.02" smashed="yes" rot="R270" grouprefs="USB_PORT">
+<attribute name="NAME" x="51.3259" y="-27.92928125" size="1.7805" layer="95" rot="R270"/>
+<attribute name="VALUE" x="27.9243" y="-27.933259375" size="1.77956875" layer="96" rot="R270"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -9427,10 +9439,10 @@ Updated by Yingchun, Shan 2020-01-16&lt;br&gt;
 <pinref part="U3" gate="G$1" pin="GND"/>
 <pinref part="GND4" gate="1" pin="GND"/>
 <wire x1="60.96" y1="-33.02" x2="60.96" y2="-20.32" width="0.1524" layer="91" grouprefs="USB_PORT"/>
-<pinref part="J1" gate="G$1" pin="GND"/>
 <wire x1="38.1" y1="-22.86" x2="38.1" y2="-20.32" width="0.1524" layer="91" grouprefs="USB_PORT"/>
 <wire x1="38.1" y1="-20.32" x2="60.96" y2="-20.32" width="0.1524" layer="91" grouprefs="USB_PORT"/>
 <junction x="60.96" y="-20.32" grouprefs="USB_PORT"/>
+<pinref part="J1" gate="G$1" pin="5"/>
 </segment>
 <segment>
 <pinref part="GND5" gate="1" pin="GND"/>
@@ -9587,13 +9599,13 @@ Updated by Yingchun, Shan 2020-01-16&lt;br&gt;
 </net>
 <net name="+5V" class="1">
 <segment>
-<pinref part="J1" gate="G$1" pin="VBUS"/>
 <wire x1="48.26" y1="-22.86" x2="48.26" y2="-12.7" width="0.1524" layer="91" grouprefs="USB_PORT"/>
 <wire x1="48.26" y1="-12.7" x2="33.02" y2="-12.7" width="0.1524" layer="91" grouprefs="USB_PORT"/>
 <pinref part="U3" gate="G$1" pin="C"/>
 <wire x1="53.34" y1="-12.7" x2="48.26" y2="-12.7" width="0.1524" layer="91" grouprefs="USB_PORT"/>
 <junction x="48.26" y="-12.7" grouprefs="USB_PORT"/>
 <pinref part="SUPPLY1" gate="+5V" pin="+5V"/>
+<pinref part="J1" gate="G$1" pin="1"/>
 </segment>
 <segment>
 <pinref part="SUPPLY2" gate="+5V" pin="+5V"/>
@@ -9697,7 +9709,6 @@ Updated by Yingchun, Shan 2020-01-16&lt;br&gt;
 </net>
 <net name="N$6" class="0">
 <segment>
-<pinref part="J1" gate="G$1" pin="D+"/>
 <wire x1="43.18" y1="-22.86" x2="43.18" y2="-17.78" width="0.1524" layer="91" grouprefs="USB_PORT"/>
 <pinref part="U2" gate="IC" pin="DP"/>
 <wire x1="43.18" y1="-17.78" x2="43.18" y2="38.1" width="0.1524" layer="91"/>
@@ -9705,11 +9716,11 @@ Updated by Yingchun, Shan 2020-01-16&lt;br&gt;
 <pinref part="U3" gate="G$1" pin="A"/>
 <wire x1="58.42" y1="-17.78" x2="43.18" y2="-17.78" width="0.1524" layer="91" grouprefs="USB_PORT"/>
 <junction x="43.18" y="-17.78" grouprefs="USB_PORT"/>
+<pinref part="J1" gate="G$1" pin="3"/>
 </segment>
 </net>
 <net name="N$7" class="0">
 <segment>
-<pinref part="J1" gate="G$1" pin="D-"/>
 <pinref part="U2" gate="IC" pin="DN"/>
 <wire x1="45.72" y1="-22.86" x2="45.72" y2="-15.24" width="0.1524" layer="91" grouprefs="USB_PORT"/>
 <wire x1="45.72" y1="-15.24" x2="45.72" y2="35.56" width="0.1524" layer="91"/>
@@ -9717,6 +9728,7 @@ Updated by Yingchun, Shan 2020-01-16&lt;br&gt;
 <pinref part="U3" gate="G$1" pin="B"/>
 <wire x1="55.88" y1="-15.24" x2="45.72" y2="-15.24" width="0.1524" layer="91" grouprefs="USB_PORT"/>
 <junction x="45.72" y="-15.24" grouprefs="USB_PORT"/>
+<pinref part="J1" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="N$5" class="0">
