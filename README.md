@@ -6,11 +6,13 @@ SPDX-License-Identifier: MIT
 
 # Neopixel Acrylic Lamp
 
+WARNING: THIS PROJECT IS NOT WORKING.
+
 This repository contains Eagle PCB designs and code to replace the board on some types of lamps that hold an acrylic shape.
 
 ## Further References
 
-Refer to my [ts blog post](https://flameeyes.blog/2020/07/09/investigating-chinese-acrylic-lamps/) for details.
+Refer to my [blog post](https://flameeyes.blog/2020/07/09/investigating-chinese-acrylic-lamps/) for details.
 
 ## License
 
