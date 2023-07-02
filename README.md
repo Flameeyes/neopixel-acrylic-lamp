@@ -6,13 +6,16 @@ SPDX-License-Identifier: MIT
 
 # Neopixel Acrylic Lamp
 
-WARNING: THIS PROJECT IS NOT WORKING.
+This repository contains Eagle PCB dsigns and 3D objects to build a lamp hosting an acrylic
+cutout, similar to the many "3D effect" lamps that you can buy on most online stores by now.
 
-This repository contains Eagle PCB designs and code to replace the board on some types of lamps that hold an acrylic shape.
+Please note that while rev3 boards appear to be working, the 3D objects are still untested
+and the design is still up in the air.
 
 ## Further References
 
-Refer to my [blog post](https://flameeyes.blog/2020/07/09/investigating-chinese-acrylic-lamps/) for details.
+Refer to my [blog post](https://flameeyes.blog/2020/07/09/investigating-chinese-acrylic-lamps/) for
+details.
 
 ## License
 
