@@ -8908,6 +8908,426 @@ In this library the device names are the same as the pin names of the symbols, t
 </deviceset>
 </devicesets>
 </library>
+<library name="Transistor">
+<description>&lt;B&gt;BJT, JFET, MOSFET, UJT, Darlington</description>
+<packages>
+<package name="TO92" urn="urn:adsk.eagle:footprint:32629656/1">
+<description>&lt;b&gt;TO-92&lt;/b&gt;</description>
+<wire x1="-2.095" y1="-1.651" x2="-0.7869" y2="2.5484" width="0.1524" layer="21" curve="-111.097684"/>
+<wire x1="0.7869" y1="2.5484" x2="2.095" y2="-1.651" width="0.1524" layer="21" curve="-111.097684"/>
+<wire x1="-2.095" y1="-1.651" x2="2.095" y2="-1.651" width="0.1524" layer="21"/>
+<wire x1="-2.254" y1="-0.254" x2="-0.286" y2="-0.254" width="0.1524" layer="51"/>
+<wire x1="-2.655" y1="-0.254" x2="-2.254" y2="-0.254" width="0.1524" layer="21"/>
+<wire x1="-0.286" y1="-0.254" x2="0.286" y2="-0.254" width="0.1524" layer="21"/>
+<wire x1="2.254" y1="-0.254" x2="2.655" y2="-0.254" width="0.1524" layer="21"/>
+<wire x1="0.286" y1="-0.254" x2="2.254" y2="-0.254" width="0.1524" layer="51"/>
+<wire x1="-0.7864" y1="2.5484" x2="0.7864" y2="2.5484" width="0.1524" layer="51" curve="-34.298964"/>
+<pad name="1" x="-1.27" y="0" drill="0.8128" shape="octagon"/>
+<pad name="2" x="0" y="1.905" drill="0.8128" shape="octagon"/>
+<pad name="3" x="1.27" y="0" drill="0.8128" shape="octagon"/>
+<text x="2.413" y="1.651" size="1.27" layer="25" ratio="10">&gt;NAME</text>
+<text x="2.921" y="-1.27" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
+</package>
+<package name="SOT95P237X112-3N" urn="urn:adsk.eagle:footprint:16378720/1">
+<description>3-SOT23, 0.95 mm pitch, 2.37 mm span, 2.86 X 1.28 X 1.12 mm body
+&lt;p&gt;3-pin SOT23 package with 0.95 mm pitch, 2.37 mm span with body size 2.86 X 1.28 X 1.12 mm&lt;/p&gt;</description>
+<circle x="-1.204" y="1.7664" radius="0.25" width="0" layer="21"/>
+<wire x1="-0.7" y1="1.5764" x2="0.7" y2="1.5764" width="0.12" layer="21"/>
+<wire x1="0.7" y1="1.5764" x2="0.7" y2="0.5664" width="0.12" layer="21"/>
+<wire x1="-0.7" y1="-1.5764" x2="0.7" y2="-1.5764" width="0.12" layer="21"/>
+<wire x1="0.7" y1="-1.5764" x2="0.7" y2="-0.5664" width="0.12" layer="21"/>
+<wire x1="0.7" y1="-1.525" x2="-0.7" y2="-1.525" width="0.12" layer="51"/>
+<wire x1="-0.7" y1="-1.525" x2="-0.7" y2="1.525" width="0.12" layer="51"/>
+<wire x1="-0.7" y1="1.525" x2="0.7" y2="1.525" width="0.12" layer="51"/>
+<wire x1="0.7" y1="1.525" x2="0.7" y2="-1.525" width="0.12" layer="51"/>
+<smd name="1" x="-1.064" y="0.95" dx="1.2235" dy="0.6248" layer="1"/>
+<smd name="2" x="-1.064" y="-0.95" dx="1.2235" dy="0.6248" layer="1"/>
+<smd name="3" x="1.064" y="0" dx="1.2235" dy="0.6248" layer="1"/>
+<text x="0" y="2.6514" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-2.2114" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
+</package>
+<package name="TO18" urn="urn:adsk.eagle:footprint:28463/1">
+<description>&lt;b&gt;TO 18&lt;/b&gt;</description>
+<wire x1="0.9289" y1="2.227" x2="2.227" y2="0.9289" width="0.0508" layer="51" curve="-44.7172"/>
+<wire x1="0.9289" y1="-2.227" x2="2.227" y2="-0.9289" width="0.0508" layer="51" curve="44.7172"/>
+<wire x1="-3.937" y1="-0.508" x2="-3.937" y2="0.508" width="0.127" layer="21"/>
+<wire x1="-2.227" y1="-0.9289" x2="0.929" y2="2.2271" width="0.0508" layer="21" curve="-135.281"/>
+<wire x1="-2.227" y1="-0.9289" x2="-0.9289" y2="-2.227" width="0.0508" layer="51" curve="44.7172"/>
+<wire x1="-3.937" y1="-0.508" x2="-2.8765" y2="-0.508" width="0.127" layer="21"/>
+<wire x1="-0.9289" y1="-2.227" x2="0.9289" y2="-2.227" width="0.0508" layer="21" curve="45.2828"/>
+<wire x1="-3.937" y1="0.508" x2="-2.8765" y2="0.508" width="0.127" layer="21"/>
+<wire x1="2.227" y1="-0.9289" x2="2.227" y2="0.9289" width="0.0508" layer="21" curve="45.2828"/>
+<circle x="0" y="0" radius="2.921" width="0.127" layer="21"/>
+<pad name="1" x="-1.27" y="-1.27" drill="0.8128" shape="octagon"/>
+<pad name="2" x="1.27" y="-1.27" drill="0.8128" shape="octagon"/>
+<pad name="3" x="1.27" y="1.27" drill="0.8128" shape="octagon"/>
+<text x="3.175" y="0" size="1.27" layer="25" ratio="10">&gt;NAME</text>
+<text x="3.175" y="-1.905" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
+<text x="-1.905" y="-1.27" size="1.27" layer="51" ratio="10">1</text>
+<text x="0.635" y="-1.27" size="1.27" layer="51" ratio="10">2</text>
+<text x="0" y="0.635" size="1.27" layer="51" ratio="10">3</text>
+</package>
+<package name="TO3" urn="urn:adsk.eagle:footprint:28652/1">
+<description>&lt;b&gt;TO-3&lt;/b&gt;</description>
+<wire x1="6.3754" y1="-10.9982" x2="17.3736" y2="-4.5212" width="0.1524" layer="21"/>
+<wire x1="5.969" y1="11.2014" x2="17.3736" y2="4.5212" width="0.1524" layer="21"/>
+<wire x1="-6.35" y1="10.9982" x2="-17.272" y2="4.572" width="0.1524" layer="21"/>
+<wire x1="-5.9436" y1="-11.2268" x2="-17.2466" y2="-4.5974" width="0.1524" layer="21"/>
+<wire x1="17.3366" y1="4.545" x2="19.812" y2="0" width="0.1524" layer="21" curve="-57.148737"/>
+<wire x1="17.3366" y1="-4.545" x2="19.812" y2="0" width="0.1524" layer="21" curve="57.148737"/>
+<wire x1="-19.812" y1="0" x2="-17.0927" y2="4.6935" width="0.1524" layer="21" curve="-60.173068"/>
+<wire x1="-19.812" y1="0" x2="-17.1555" y2="-4.657" width="0.1524" layer="21" curve="59.404169"/>
+<wire x1="0" y1="-12.7" x2="6.3718" y2="-10.9859" width="0.1524" layer="21" curve="30.113639"/>
+<wire x1="-5.9765" y1="-11.2059" x2="0" y2="-12.7" width="0.1524" layer="21" curve="28.0726"/>
+<wire x1="-6.3718" y1="10.9859" x2="0" y2="12.7" width="0.1524" layer="21" curve="-30.113639"/>
+<wire x1="0" y1="12.7" x2="5.9765" y2="11.2059" width="0.1524" layer="21" curve="-28.0726"/>
+<circle x="0" y="0" radius="9.3726" width="0.1524" layer="21"/>
+<circle x="0" y="0" radius="11.684" width="0.0508" layer="21"/>
+<circle x="15.113" y="0" radius="2.159" width="0.1524" layer="51"/>
+<circle x="-15.113" y="0" radius="2.159" width="0.1524" layer="51"/>
+<pad name="E" x="-1.778" y="-5.461" drill="1.1938" diameter="3.1496" shape="long"/>
+<pad name="B" x="-1.778" y="5.461" drill="1.1938" diameter="3.1496" shape="long"/>
+<pad name="C" x="15.113" y="0" drill="4.1148" diameter="6.477"/>
+<pad name="C/" x="-15.113" y="0" drill="4.1148" diameter="6.477"/>
+<text x="-5.08" y="1.27" size="1.778" layer="25" ratio="10">&gt;NAME</text>
+<text x="-5.08" y="-2.54" size="1.778" layer="27" ratio="10">&gt;VALUE</text>
+<text x="15.24" y="-4.953" size="1.27" layer="51" ratio="10" rot="R90">C</text>
+<text x="-3.81" y="-6.223" size="1.27" layer="51" ratio="10" rot="R90">E</text>
+<text x="-3.81" y="4.572" size="1.27" layer="51" ratio="10" rot="R90">B</text>
+</package>
+</packages>
+<packages3d>
+<package3d name="TO92" urn="urn:adsk.eagle:package:16378726/8" type="model">
+<description>&lt;b&gt;TO-92&lt;/b&gt;</description>
+<packageinstances>
+<packageinstance name="TO92"/>
+</packageinstances>
+</package3d>
+<package3d name="SOT95P237X112-3N" urn="urn:adsk.eagle:package:16378725/1" type="model">
+<description>3-SOT23, 0.95 mm pitch, 2.37 mm span, 2.86 X 1.28 X 1.12 mm body
+&lt;p&gt;3-pin SOT23 package with 0.95 mm pitch, 2.37 mm span with body size 2.86 X 1.28 X 1.12 mm&lt;/p&gt;</description>
+<packageinstances>
+<packageinstance name="SOT95P237X112-3N"/>
+</packageinstances>
+</package3d>
+<package3d name="TO18" urn="urn:adsk.eagle:package:16378727/2" type="model">
+<description>TO 18</description>
+<packageinstances>
+<packageinstance name="TO18"/>
+</packageinstances>
+</package3d>
+<package3d name="TO3" urn="urn:adsk.eagle:package:16378728/1" type="model">
+<description>TO-3</description>
+<packageinstances>
+<packageinstance name="TO3"/>
+</packageinstances>
+</package3d>
+</packages3d>
+<symbols>
+<symbol name="NPN" urn="urn:adsk.eagle:symbol:16378719/1">
+<wire x1="0" y1="2.54" x2="-2.032" y2="1.524" width="0.1524" layer="94"/>
+<wire x1="-0.762" y1="-1.524" x2="0" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="0" y1="-2.54" x2="-1.27" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="-1.27" y1="-2.54" x2="-0.762" y2="-1.524" width="0.1524" layer="94"/>
+<wire x1="-1" y1="-2.04" x2="-2.232" y2="-1.424" width="0.1524" layer="94"/>
+<wire x1="-1.016" y1="-2.413" x2="-0.254" y2="-2.413" width="0.254" layer="94"/>
+<wire x1="-0.254" y1="-2.413" x2="-0.762" y2="-1.778" width="0.254" layer="94"/>
+<wire x1="-0.762" y1="-1.778" x2="-1.016" y2="-2.286" width="0.254" layer="94"/>
+<wire x1="-1.016" y1="-2.286" x2="-0.635" y2="-2.286" width="0.254" layer="94"/>
+<wire x1="-0.635" y1="-2.286" x2="-0.762" y2="-2.032" width="0.254" layer="94"/>
+<text x="0.54" y="3" size="1.778" layer="95">&gt;NAME</text>
+<text x="0.54" y="0.46" size="1.778" layer="96">&gt;VALUE</text>
+<text x="0.54" y="-2.08" size="1.778" layer="97">&gt;SPICEMODEL</text>
+<text x="0.54" y="-4.62" size="1.778" layer="97">&gt;SPICEEXTRA</text>
+<rectangle x1="-2.794" y1="-2.54" x2="-2.032" y2="2.54" layer="94"/>
+<pin name="B" x="-5.08" y="0" visible="off" length="short" direction="pas" swaplevel="1"/>
+<pin name="E" x="0" y="-5.08" visible="off" length="short" direction="pas" swaplevel="3" rot="R90"/>
+<pin name="C" x="0" y="5.08" visible="off" length="short" direction="pas" swaplevel="2" rot="R270"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="NPN_" urn="urn:adsk.eagle:component:16378736/8" prefix="Q" uservalue="yes">
+<description>&lt;B&gt;NPN - Popular parts</description>
+<gates>
+<gate name="G$1" symbol="NPN" x="0" y="0"/>
+</gates>
+<devices>
+<device name="_TO92-CBE" package="TO92">
+<connects>
+<connect gate="G$1" pin="B" pad="2"/>
+<connect gate="G$1" pin="C" pad="1"/>
+<connect gate="G$1" pin="E" pad="3"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:16378726/8"/>
+</package3dinstances>
+<technologies>
+<technology name="BC546">
+<attribute name="CATEGORY" value="Transistor" constant="no"/>
+<attribute name="DESCRIPTION" value="" constant="no"/>
+<attribute name="IC_MAX" value="" constant="no"/>
+<attribute name="MANUFACTURER" value="Onsemi" constant="no"/>
+<attribute name="MPN" value="BC546" constant="no"/>
+<attribute name="OPERATING_TEMP" value="" constant="no"/>
+<attribute name="PART_STATUS" value="" constant="no"/>
+<attribute name="ROHS_COMPLIANT" value="" constant="no"/>
+<attribute name="SERIES" value="" constant="no"/>
+<attribute name="SUB-CATEGORY" value="BJT" constant="no"/>
+<attribute name="THERMALLOSS" value="" constant="no"/>
+<attribute name="TYPE" value="NPN" constant="no"/>
+<attribute name="VALUE" value="BC546" constant="no"/>
+<attribute name="VCEO_MAX" value="" constant="no"/>
+</technology>
+<technology name="BC547">
+<attribute name="CATEGORY" value="Transistor" constant="no"/>
+<attribute name="DESCRIPTION" value="" constant="no"/>
+<attribute name="IC_MAX" value="" constant="no"/>
+<attribute name="MANUFACTURER" value="Onsemi" constant="no"/>
+<attribute name="MPN" value="BC547" constant="no"/>
+<attribute name="OPERATING_TEMP" value="" constant="no"/>
+<attribute name="PART_STATUS" value="" constant="no"/>
+<attribute name="ROHS_COMPLIANT" value="" constant="no"/>
+<attribute name="SERIES" value="" constant="no"/>
+<attribute name="SUB-CATEGORY" value="BJT" constant="no"/>
+<attribute name="THERMALLOSS" value="" constant="no"/>
+<attribute name="TYPE" value="NPN" constant="no"/>
+<attribute name="VALUE" value="BC547" constant="no"/>
+<attribute name="VCEO_MAX" value="" constant="no"/>
+</technology>
+<technology name="BC548">
+<attribute name="CATEGORY" value="Transistor" constant="no"/>
+<attribute name="DESCRIPTION" value="" constant="no"/>
+<attribute name="IC_MAX" value="" constant="no"/>
+<attribute name="MANUFACTURER" value="Onsemi" constant="no"/>
+<attribute name="MPN" value="BC548" constant="no"/>
+<attribute name="OPERATING_TEMP" value="" constant="no"/>
+<attribute name="PART_STATUS" value="" constant="no"/>
+<attribute name="ROHS_COMPLIANT" value="" constant="no"/>
+<attribute name="SERIES" value="" constant="no"/>
+<attribute name="SUB-CATEGORY" value="BJT" constant="no"/>
+<attribute name="THERMALLOSS" value="" constant="no"/>
+<attribute name="TYPE" value="NPN" constant="no"/>
+<attribute name="VALUE" value="BC548" constant="no"/>
+<attribute name="VCEO_MAX" value="" constant="no"/>
+</technology>
+<technology name="BC549">
+<attribute name="CATEGORY" value="Transistor" constant="no"/>
+<attribute name="DESCRIPTION" value="" constant="no"/>
+<attribute name="IC_MAX" value="" constant="no"/>
+<attribute name="MANUFACTURER" value="Onsemi" constant="no"/>
+<attribute name="MPN" value="BC549" constant="no"/>
+<attribute name="OPERATING_TEMP" value="" constant="no"/>
+<attribute name="PART_STATUS" value="" constant="no"/>
+<attribute name="ROHS_COMPLIANT" value="" constant="no"/>
+<attribute name="SERIES" value="" constant="no"/>
+<attribute name="SUB-CATEGORY" value="BJT" constant="no"/>
+<attribute name="THERMALLOSS" value="" constant="no"/>
+<attribute name="TYPE" value="NPN" constant="no"/>
+<attribute name="VALUE" value="BC549" constant="no"/>
+<attribute name="VCEO_MAX" value="" constant="no"/>
+</technology>
+<technology name="BC550">
+<attribute name="CATEGORY" value="Transistor" constant="no"/>
+<attribute name="DESCRIPTION" value="" constant="no"/>
+<attribute name="IC_MAX" value="" constant="no"/>
+<attribute name="MANUFACTURER" value="Onsemi" constant="no"/>
+<attribute name="MPN" value="BC550" constant="no"/>
+<attribute name="OPERATING_TEMP" value="" constant="no"/>
+<attribute name="PART_STATUS" value="" constant="no"/>
+<attribute name="ROHS_COMPLIANT" value="" constant="no"/>
+<attribute name="SERIES" value="" constant="no"/>
+<attribute name="SUB-CATEGORY" value="BJT" constant="no"/>
+<attribute name="THERMALLOSS" value="" constant="no"/>
+<attribute name="TYPE" value="NPN" constant="no"/>
+<attribute name="VALUE" value="BC550" constant="no"/>
+<attribute name="VCEO_MAX" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_SOT23-BEC" package="SOT95P237X112-3N">
+<connects>
+<connect gate="G$1" pin="B" pad="1"/>
+<connect gate="G$1" pin="C" pad="3"/>
+<connect gate="G$1" pin="E" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:16378725/1"/>
+</package3dinstances>
+<technologies>
+<technology name="BC846A,215">
+<attribute name="CATEGORY" value="Transistor" constant="no"/>
+<attribute name="DESCRIPTION" value="TRANS NPN 65V 0.1A SOT23" constant="no"/>
+<attribute name="IC_MAX" value="" constant="no"/>
+<attribute name="MANUFACTURER" value="Nexperia USA Inc." constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="OPERATING_TEMP" value="" constant="no"/>
+<attribute name="PART_STATUS" value="" constant="no"/>
+<attribute name="ROHS_COMPLIANT" value="" constant="no"/>
+<attribute name="SERIES" value="" constant="no"/>
+<attribute name="SUB-CATEGORY" value="BJT" constant="no"/>
+<attribute name="THERMALLOSS" value="" constant="no"/>
+<attribute name="TYPE" value="NPN" constant="no"/>
+<attribute name="VALUE" value="BC846A" constant="no"/>
+<attribute name="VCEO_MAX" value="" constant="no"/>
+</technology>
+<technology name="MMBT2222ALT1G">
+<attribute name="CATEGORY" value="Transistor" constant="no"/>
+<attribute name="DESCRIPTION" value="TRANS NPN 40V 0.6A SOT23" constant="no"/>
+<attribute name="IC_MAX" value="" constant="no"/>
+<attribute name="MANUFACTURER" value="ON Semiconductor" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="OPERATING_TEMP" value="" constant="no"/>
+<attribute name="PART_STATUS" value="" constant="no"/>
+<attribute name="ROHS_COMPLIANT" value="" constant="no"/>
+<attribute name="SERIES" value="" constant="no"/>
+<attribute name="SUB-CATEGORY" value="BJT" constant="no"/>
+<attribute name="THERMALLOSS" value="" constant="no"/>
+<attribute name="TYPE" value="NPN" constant="no"/>
+<attribute name="VALUE" value="MMBT2222AL" constant="no"/>
+<attribute name="VCEO_MAX" value="" constant="no"/>
+</technology>
+<technology name="MMBT3904-7-F">
+<attribute name="CATEGORY" value="Transistor" constant="no"/>
+<attribute name="DESCRIPTION" value="TRANS NPN 40V 0.2A SMD SOT23-3" constant="no"/>
+<attribute name="IC_MAX" value="" constant="no"/>
+<attribute name="MANUFACTURER" value="Diodes Incorporated" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="OPERATING_TEMP" value="" constant="no"/>
+<attribute name="PART_STATUS" value="" constant="no"/>
+<attribute name="ROHS_COMPLIANT" value="" constant="no"/>
+<attribute name="SERIES" value="" constant="no"/>
+<attribute name="SUB-CATEGORY" value="BJT" constant="no"/>
+<attribute name="THERMALLOSS" value="" constant="no"/>
+<attribute name="TYPE" value="NPN" constant="no"/>
+<attribute name="VALUE" value="MMBT3904" constant="no"/>
+<attribute name="VCEO_MAX" value="" constant="no"/>
+</technology>
+<technology name="MMBT3904LT1G">
+<attribute name="CATEGORY" value="Transistor" constant="no"/>
+<attribute name="DESCRIPTION" value="TRANS NPN 40V 0.2A SOT23" constant="no"/>
+<attribute name="IC_MAX" value="" constant="no"/>
+<attribute name="MANUFACTURER" value="ON Semiconductor" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="OPERATING_TEMP" value="" constant="no"/>
+<attribute name="PART_STATUS" value="" constant="no"/>
+<attribute name="ROHS_COMPLIANT" value="" constant="no"/>
+<attribute name="SERIES" value="" constant="no"/>
+<attribute name="SUB-CATEGORY" value="BJT" constant="no"/>
+<attribute name="THERMALLOSS" value="" constant="no"/>
+<attribute name="TYPE" value="NPN" constant="no"/>
+<attribute name="VALUE" value="MMBT3904L" constant="no"/>
+<attribute name="VCEO_MAX" value="" constant="no"/>
+</technology>
+<technology name="PMBT3904,215">
+<attribute name="CATEGORY" value="Transistor" constant="no"/>
+<attribute name="DESCRIPTION" value="TRANS NPN 40V 0.2A SOT23" constant="no"/>
+<attribute name="IC_MAX" value="" constant="no"/>
+<attribute name="MANUFACTURER" value="Nexperia USA Inc." constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="OPERATING_TEMP" value="" constant="no"/>
+<attribute name="PART_STATUS" value="" constant="no"/>
+<attribute name="ROHS_COMPLIANT" value="" constant="no"/>
+<attribute name="SERIES" value="" constant="no"/>
+<attribute name="SUB-CATEGORY" value="BJT" constant="no"/>
+<attribute name="THERMALLOSS" value="" constant="no"/>
+<attribute name="TYPE" value="NPN" constant="no"/>
+<attribute name="VALUE" value="PMBT3904" constant="no"/>
+<attribute name="VCEO_MAX" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_TO18-EBC" package="TO18">
+<connects>
+<connect gate="G$1" pin="B" pad="2"/>
+<connect gate="G$1" pin="C" pad="3"/>
+<connect gate="G$1" pin="E" pad="1"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:16378727/2"/>
+</package3dinstances>
+<technologies>
+<technology name="2N2221">
+<attribute name="CATEGORY" value="Transistor" constant="no"/>
+<attribute name="DESCRIPTION" value="THROUGH-HOLE TRANSISTOR-SMALL SI" constant="no"/>
+<attribute name="IC_MAX" value="800mA" constant="no"/>
+<attribute name="MANUFACTURER" value="Central Semiconductor Corp" constant="no"/>
+<attribute name="MPN" value="2N2221 PBFREE" constant="no"/>
+<attribute name="OPERATING_TEMP" value="-65°C ~ 200°C" constant="no"/>
+<attribute name="PART_STATUS" value="Active" constant="no"/>
+<attribute name="ROHS_COMPLIANT" value="Yes" constant="no"/>
+<attribute name="SERIES" value="" constant="no"/>
+<attribute name="SUB-CATEGORY" value="BJT" constant="no"/>
+<attribute name="THERMALLOSS" value="1.2W" constant="no"/>
+<attribute name="TYPE" value="NPN" constant="no"/>
+<attribute name="VALUE" value="2N2221" constant="no"/>
+<attribute name="VCEO_MAX" value="30V" constant="no"/>
+</technology>
+<technology name="2N2222">
+<attribute name="CATEGORY" value="Transistor" constant="no"/>
+<attribute name="DESCRIPTION" value="TRANS NPN 30V 0.8A TO-18" constant="no"/>
+<attribute name="IC_MAX" value="800mA" constant="no"/>
+<attribute name="MANUFACTURER" value="Central Semiconductor Corp" constant="no"/>
+<attribute name="MPN" value="2N2222 PBFREE" constant="no"/>
+<attribute name="OPERATING_TEMP" value="-65°C ~ 200°C" constant="no"/>
+<attribute name="PART_STATUS" value="Active" constant="no"/>
+<attribute name="ROHS_COMPLIANT" value="Yes" constant="no"/>
+<attribute name="SERIES" value="" constant="no"/>
+<attribute name="SUB-CATEGORY" value="BJT" constant="no"/>
+<attribute name="THERMALLOSS" value="500mW" constant="no"/>
+<attribute name="TYPE" value="NPN" constant="no"/>
+<attribute name="VALUE" value="2N2222" constant="no"/>
+<attribute name="VCEO_MAX" value="30V" constant="no"/>
+</technology>
+<technology name="JAN2N2222A">
+<attribute name="CATEGORY" value="Transistor" constant="no"/>
+<attribute name="DESCRIPTION" value="TRANS NPN 50V 0.8A" constant="no"/>
+<attribute name="IC_MAX" value="800mA" constant="no"/>
+<attribute name="MANUFACTURER" value="Microchip Technology" constant="no"/>
+<attribute name="MPN" value="JAN2N2222A" constant="no"/>
+<attribute name="OPERATING_TEMP" value="-65°C ~ 200°C" constant="no"/>
+<attribute name="PART_STATUS" value="Active" constant="no"/>
+<attribute name="ROHS_COMPLIANT" value="Yes" constant="no"/>
+<attribute name="SERIES" value="" constant="no"/>
+<attribute name="SUB-CATEGORY" value="BJT" constant="no"/>
+<attribute name="THERMALLOSS" value="500mW" constant="no"/>
+<attribute name="TYPE" value="NPN" constant="no"/>
+<attribute name="VALUE" value="2N2222A" constant="no"/>
+<attribute name="VCEO_MAX" value="50V" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_TO3" package="TO3">
+<connects>
+<connect gate="G$1" pin="B" pad="B"/>
+<connect gate="G$1" pin="C" pad="C C/"/>
+<connect gate="G$1" pin="E" pad="E"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:16378728/1"/>
+</package3dinstances>
+<technologies>
+<technology name="2N3055">
+<attribute name="CATEGORY" value="Transistor" constant="no"/>
+<attribute name="DESCRIPTION" value="THROUGH-HOLE TRANSISTOR-SMALL SI" constant="no"/>
+<attribute name="IC_MAX" value="15A" constant="no"/>
+<attribute name="MANUFACTURER" value="Central Semiconductor Corp" constant="no"/>
+<attribute name="MPN" value="2N3055 PBFREE" constant="no"/>
+<attribute name="OPERATING_TEMP" value="-65°C ~ 200°C" constant="no"/>
+<attribute name="PART_STATUS" value="Active" constant="no"/>
+<attribute name="ROHS_COMPLIANT" value="Yes" constant="no"/>
+<attribute name="SERIES" value="" constant="no"/>
+<attribute name="SUB-CATEGORY" value="BJT" constant="no"/>
+<attribute name="THERMALLOSS" value="115W" constant="no"/>
+<attribute name="TYPE" value="NPN" constant="no"/>
+<attribute name="VALUE" value="2N3055" constant="no"/>
+<attribute name="VCEO_MAX" value="60V" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -8929,6 +9349,7 @@ In this library the device names are the same as the pin names of the symbols, t
 <schematic_group name="UART_HDR"/>
 <schematic_group name="ESP32"/>
 <schematic_group name="VREG"/>
+<schematic_group name="AUTO_PROGRAM1"/>
 </groups>
 <parts>
 <part name="U1" library="ESP32-WROOM-32D" library_urn="urn:adsk.eagle:library:40560855" deviceset="ESP32-WROOM-32D" device="" package3d_urn="urn:adsk.eagle:package:40560858/2" value="ESP32-S2-SOLO-2-N4"/>
@@ -8981,6 +9402,12 @@ In this library the device names are the same as the pin names of the symbols, t
 <part name="C1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="10uF"/>
 <part name="C2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="22uF"/>
 <part name="U$1" library="flameeyes" library_urn="urn:adsk.eagle:library:40561536" deviceset="TYPEC-DB-104PWB" device="" package3d_urn="urn:adsk.eagle:package:40563571/2" value="TYPEC-DB-104PWB"/>
+<part name="Q1" library="Transistor" deviceset="NPN_" device="_SOT23-BEC" package3d_urn="urn:adsk.eagle:package:16378725/1" technology="BC846A,215" value="L8050QLT1G"/>
+<part name="Q2" library="Transistor" deviceset="NPN_" device="_SOT23-BEC" package3d_urn="urn:adsk.eagle:package:16378725/1" technology="BC846A,215" value="L8050QLT1G"/>
+<part name="R1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="10K"/>
+<part name="R3" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="10K"/>
+<part name="R4" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="0"/>
+<part name="R8" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="0"/>
 </parts>
 <sheets>
 <sheet>
@@ -9140,6 +9567,30 @@ In this library the device names are the same as the pin names of the symbols, t
 <attribute name="VALUE" x="90.424" y="-52.959" size="1.778" layer="96"/>
 </instance>
 <instance part="U$1" gate="G$1" x="27.94" y="53.34" smashed="yes" grouprefs="USB_PORT"/>
+<instance part="Q1" gate="G$1" x="106.68" y="55.88" smashed="yes" grouprefs="AUTO_PROGRAM1">
+<attribute name="NAME" x="107.22" y="58.88" size="1.778" layer="95"/>
+<attribute name="VALUE" x="107.22" y="56.34" size="1.778" layer="96"/>
+</instance>
+<instance part="Q2" gate="G$1" x="106.68" y="38.1" smashed="yes" rot="MR180" grouprefs="AUTO_PROGRAM1">
+<attribute name="NAME" x="107.22" y="35.1" size="1.778" layer="95" rot="MR180"/>
+<attribute name="VALUE" x="107.22" y="37.64" size="1.778" layer="96" rot="MR180"/>
+</instance>
+<instance part="R1" gate="G$1" x="93.98" y="55.88" smashed="yes" grouprefs="AUTO_PROGRAM1">
+<attribute name="NAME" x="90.17" y="57.3786" size="1.778" layer="95"/>
+<attribute name="VALUE" x="90.17" y="52.578" size="1.778" layer="96"/>
+</instance>
+<instance part="R3" gate="G$1" x="93.98" y="38.1" smashed="yes" grouprefs="AUTO_PROGRAM1">
+<attribute name="NAME" x="90.17" y="39.5986" size="1.778" layer="95"/>
+<attribute name="VALUE" x="90.17" y="34.798" size="1.778" layer="96"/>
+</instance>
+<instance part="R4" gate="G$1" x="127" y="66.04" smashed="yes" grouprefs="AUTO_PROGRAM1">
+<attribute name="NAME" x="123.19" y="67.5386" size="1.778" layer="95"/>
+<attribute name="VALUE" x="123.19" y="62.738" size="1.778" layer="96"/>
+</instance>
+<instance part="R8" gate="G$1" x="127" y="27.94" smashed="yes" grouprefs="AUTO_PROGRAM1">
+<attribute name="NAME" x="123.19" y="29.4386" size="1.778" layer="95"/>
+<attribute name="VALUE" x="123.19" y="24.638" size="1.778" layer="96"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -9440,9 +9891,9 @@ In this library the device names are the same as the pin names of the symbols, t
 <pinref part="BOOT" gate="G$1" pin="2"/>
 </segment>
 <segment>
-<pinref part="UART" gate="A" pin="1"/>
-<wire x1="-10.16" y1="-2.54" x2="-22.86" y2="-2.54" width="0.1524" layer="91" grouprefs="UART_HDR"/>
-<label x="-22.86" y="-2.54" size="1.778" layer="95" rot="R180" xref="yes" grouprefs="UART_HDR"/>
+<wire x1="132.08" y1="27.94" x2="137.16" y2="27.94" width="0.1524" layer="91" grouprefs="AUTO_PROGRAM1"/>
+<label x="137.16" y="27.94" size="1.778" layer="95" xref="yes" grouprefs="AUTO_PROGRAM1"/>
+<pinref part="R8" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="ESP_EN" class="0">
@@ -9464,9 +9915,9 @@ In this library the device names are the same as the pin names of the symbols, t
 <pinref part="RESET" gate="G$1" pin="2"/>
 </segment>
 <segment>
-<pinref part="UART" gate="A" pin="6"/>
-<wire x1="-10.16" y1="-15.24" x2="-15.24" y2="-15.24" width="0.1524" layer="91" grouprefs="UART_HDR"/>
-<label x="-15.24" y="-15.24" size="1.778" layer="95" rot="R180" xref="yes" grouprefs="UART_HDR"/>
+<wire x1="132.08" y1="66.04" x2="137.16" y2="66.04" width="0.1524" layer="91" grouprefs="AUTO_PROGRAM1"/>
+<label x="137.16" y="66.04" size="1.778" layer="95" xref="yes" grouprefs="AUTO_PROGRAM1"/>
+<pinref part="R4" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="N$4" class="0">
@@ -9605,6 +10056,72 @@ In this library the device names are the same as the pin names of the symbols, t
 <pinref part="R7" gate="G$1" pin="1"/>
 <wire x1="17.78" y1="66.04" x2="12.7" y2="66.04" width="0.1524" layer="91"/>
 <pinref part="U$1" gate="G$1" pin="CC1"/>
+</segment>
+</net>
+<net name="N$5" class="0">
+<segment>
+<wire x1="99.06" y1="55.88" x2="101.6" y2="55.88" width="0.1524" layer="91" grouprefs="AUTO_PROGRAM1"/>
+<pinref part="Q1" gate="G$1" pin="B"/>
+<pinref part="R1" gate="G$1" pin="2"/>
+</segment>
+</net>
+<net name="N$6" class="0">
+<segment>
+<wire x1="99.06" y1="38.1" x2="101.6" y2="38.1" width="0.1524" layer="91" grouprefs="AUTO_PROGRAM1"/>
+<pinref part="Q2" gate="G$1" pin="B"/>
+<pinref part="R3" gate="G$1" pin="2"/>
+</segment>
+</net>
+<net name="!DTR" class="0">
+<segment>
+<wire x1="88.9" y1="55.88" x2="86.36" y2="55.88" width="0.1524" layer="91" grouprefs="AUTO_PROGRAM1"/>
+<pinref part="Q2" gate="G$1" pin="E"/>
+<wire x1="86.36" y1="55.88" x2="76.2" y2="55.88" width="0.1524" layer="91" grouprefs="AUTO_PROGRAM1"/>
+<wire x1="106.68" y1="43.18" x2="106.68" y2="45.72" width="0.1524" layer="91" grouprefs="AUTO_PROGRAM1"/>
+<wire x1="106.68" y1="45.72" x2="86.36" y2="45.72" width="0.1524" layer="91" grouprefs="AUTO_PROGRAM1"/>
+<wire x1="86.36" y1="45.72" x2="86.36" y2="55.88" width="0.1524" layer="91" grouprefs="AUTO_PROGRAM1"/>
+<junction x="86.36" y="55.88" grouprefs="AUTO_PROGRAM1"/>
+<label x="76.2" y="55.88" size="1.778" layer="95" rot="R180" xref="yes" grouprefs="AUTO_PROGRAM1"/>
+<pinref part="R1" gate="G$1" pin="1"/>
+</segment>
+<segment>
+<pinref part="UART" gate="A" pin="1"/>
+<wire x1="-10.16" y1="-2.54" x2="-15.24" y2="-2.54" width="0.1524" layer="91"/>
+<label x="-15.24" y="-2.54" size="1.778" layer="95" rot="R90" xref="yes"/>
+</segment>
+</net>
+<net name="N$10" class="0">
+<segment>
+<pinref part="Q1" gate="G$1" pin="C"/>
+<wire x1="106.68" y1="60.96" x2="106.68" y2="66.04" width="0.1524" layer="91" grouprefs="AUTO_PROGRAM1"/>
+<wire x1="106.68" y1="66.04" x2="121.92" y2="66.04" width="0.1524" layer="91" grouprefs="AUTO_PROGRAM1"/>
+<pinref part="R4" gate="G$1" pin="1"/>
+</segment>
+</net>
+<net name="N$11" class="0">
+<segment>
+<pinref part="Q2" gate="G$1" pin="C"/>
+<wire x1="106.68" y1="33.02" x2="106.68" y2="27.94" width="0.1524" layer="91" grouprefs="AUTO_PROGRAM1"/>
+<wire x1="106.68" y1="27.94" x2="121.92" y2="27.94" width="0.1524" layer="91" grouprefs="AUTO_PROGRAM1"/>
+<pinref part="R8" gate="G$1" pin="1"/>
+</segment>
+</net>
+<net name="!RTS" class="0">
+<segment>
+<wire x1="88.9" y1="38.1" x2="83.82" y2="38.1" width="0.1524" layer="91" grouprefs="AUTO_PROGRAM1"/>
+<wire x1="83.82" y1="38.1" x2="76.2" y2="38.1" width="0.1524" layer="91" grouprefs="AUTO_PROGRAM1"/>
+<junction x="83.82" y="38.1" grouprefs="AUTO_PROGRAM1"/>
+<wire x1="83.82" y1="38.1" x2="83.82" y2="48.26" width="0.1524" layer="91" grouprefs="AUTO_PROGRAM1"/>
+<wire x1="83.82" y1="48.26" x2="106.68" y2="48.26" width="0.1524" layer="91" grouprefs="AUTO_PROGRAM1"/>
+<wire x1="106.68" y1="48.26" x2="106.68" y2="50.8" width="0.1524" layer="91" grouprefs="AUTO_PROGRAM1"/>
+<pinref part="Q1" gate="G$1" pin="E"/>
+<label x="76.2" y="38.1" size="1.778" layer="95" rot="R180" xref="yes" grouprefs="AUTO_PROGRAM1"/>
+<pinref part="R3" gate="G$1" pin="1"/>
+</segment>
+<segment>
+<pinref part="UART" gate="A" pin="6"/>
+<wire x1="-10.16" y1="-15.24" x2="-15.24" y2="-15.24" width="0.1524" layer="91"/>
+<label x="-15.24" y="-15.24" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 </nets>
