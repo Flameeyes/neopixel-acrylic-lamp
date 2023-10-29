@@ -14,7 +14,7 @@ and the design is still up in the air.
 
 ## Further References
 
-Refer to my [blog post](https://flameeyes.blog/2020/07/09/investigating-chinese-acrylic-lamps/) for
+Refer to my [blog](https://flameeyes.blog/tag/acrylic-lamps/) for
 details.
 
 ## License
